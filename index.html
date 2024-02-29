@@ -8,19 +8,23 @@
 </head>
 <body>
     <header>
+        <!--Navbar-->
         <nav>
             <ul>
                 <li><a href="#">Homepage</a></li>
-                <li><a href="#">Why UNIX</a></li>
-                <li><a href="#">Fundamentals</a></li>
-                <li><a href="#">Software</a></li>
-                <li><a href="#">Tutorials</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="#">Why UNIX</a></li> <!--Not sure if this is going to be a dropdown?-->
+                <li class="dropdown"> <!--Use classes to modify look and feel in CSS later, this is just a barebones template.-->
+                    <a href="#" class="dropbtn">Fundamentals</a>
+                    <div class="dropdown-content">
+                        <a href="directory/fundamentals/files.html">Files</a>
+                        <a href="directory/fundamentals/shell_basics.html">Shell basics</a>
+                    </div>
+                </li>
             </ul>
         </nav>
     </header>
     <footer>
-        <p>Placeholder</p>
+        <p>Placeholder Footer</p>
     </footer>
 </body>
 </html>
